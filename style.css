@@ -1,0 +1,189 @@
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-pnl {
+    width: 100px;
+    height: 40px;
+    margin-left: 300px;
+    margin-top: 30px;
+    background: #553030;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #F1E7B1;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    height: 600px;
+    background: url("img/07677b0998bf654f8576c2462324e333.png") no-repeat;
+    background-size: cover;
+}
+
+.fond {
+    width: 100%;
+    height: 650px;
+}
+
+.logo {
+    position: absolute;
+    margin : 150px 620px;
+}
+
+.navbar-menu {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    margin-top: 500px;
+}
+
+.navbar-menu ul {
+    list-style: none;
+}
+
+.navbar-menu ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.navbar-menu ul li a {
+    color: #F1E7B1;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.container {
+    width: 100%;
+    height: 400px;
+}
+
+.container-flex {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: flex-start;
+}
+
+.flex-colonne {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.dtf {
+    width: 25%;
+}
+
+.dtf img{
+    height: 200px;
+    width: 220px;
+    margin: 20px 50px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.first {
+    margin-left: 45px;
+    background: #FDF5F5;
+}
+
+.second {
+    background: #373737;
+}
+
+.three {
+    background: #7C7C7C;
+}
+
+.four {
+    background: #9E9E9E;
+}
+
+.five {
+    background: #848484;
+}
+
+.content-dtf {
+    padding-right: 10%;
+    font-size: 26px;
+    margin: 40px;
+    text-align: center;
+    width: 75%;
+}
+
+.content-dtf p{
+    margin: 10px;
+}
+
+.title-cloudrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cloud-rap {
+    width: 70%;
+    padding-left: 5%;
+    font-size: 26px;
+    margin: 20px;
+    text-align: center;
+}
+
+.img-cloudrap {
+    width: auto;
+}
+
+.img-cloudrap img {
+    margin-left: 40px;
+}
+
+.pnl-content,
+.dtf-content,
+.mmz-content {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pnl-img {
+    width: 40%;
+}
+
+.pnl-img img{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+    margin-right: 200px;
+    margin-top: 40px;
+    font-size: 22px;
+}
